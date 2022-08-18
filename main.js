@@ -1,4 +1,4 @@
-const api_key = "AIzaSyC7k5o1Wi0-hDM3toKTy4QYoTvfbeGLJbo";
+const api_key = "";  // Insert API Key
 
 let container = document.getElementById("results");
 let popular = document.getElementById("popular");
