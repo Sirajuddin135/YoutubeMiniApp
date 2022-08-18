@@ -1,0 +1,138 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    background-color: #f8f8f8;
+    width: 100%;
+    display: flex;
+    padding: 15px 0;
+}
+
+#navbar * {
+    margin: auto;
+}
+
+#menuIcons {
+    position: absolute;
+    display: grid;
+    margin: 20px 100px 0 -30px;
+}
+
+#icon {
+    margin-left: -15px;
+    display: flex;
+}
+
+#youtubeIcon {
+    width: 30px;
+    margin-right: 3px;
+}
+
+sup {
+    font-weight: normal;
+    font-size: 10px;
+}
+
+#search {
+    margin-left: 150px;
+    display: inline-block;
+    border: 1px solid grey;
+}
+
+#searchBar {
+    width: 500px;
+    padding: 8px 5px;
+    border: 0;
+    font-size: 15px;
+    border-right: 1px solid grey;
+}
+
+#search>i {
+    padding: 10px 25px;
+    background-color: #f8f8f8;
+}
+
+#mic {
+    margin-left: -20px;
+    padding: 15px 10px;
+    background-color: #f8f8f8;
+    border-radius: 20px;
+}
+
+#videoIcon,
+#appsIcon {
+    width: 18px;
+    height: 18px;
+}
+
+#videoIcon {
+    margin-left: 100px;
+}
+
+#appsIcon,
+#bellIcon,
+#userIcon {
+    margin-left: -2px;
+}
+
+#userIcon {
+    background-color: #f8f8f8;
+    padding: 15px 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#popular {
+    margin: 100px 0 0 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    cursor: pointer;
+}
+
+#popular>div>img {
+    width: 280px;
+}
+
+#popular>div {
+    width: 90%;
+}
+
+#popular>div>img+p {
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+#popular>div>p+p {
+    font-size: 14px;
+    margin-top: -12px;
+}
+
+#results {
+    margin: 30px 100px;
+}
+
+#results>div:first-child {
+    margin-top: 60px;
+}
+
+#results>div {
+    display: flex;
+    margin-top: 20px;
+}
+
+#results>div>div {
+    margin-left: 15px;
+}
+
+#results>div>div>p {
+    font-size: 20px;
+}
+
+#results>div>div>p+p {
+    font-size: 12px;
+}
