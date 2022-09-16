@@ -18,7 +18,7 @@
 - Youtube API
 
 ## Visit Site
-https://sensational-madeleine-f66f53.netlify.app
+https://youtube-project-clone.netlify.app/
 
 ## Copy this link to clone the Github Repository
 https://github.com/Sirajuddin135/YoutubeMiniApp
